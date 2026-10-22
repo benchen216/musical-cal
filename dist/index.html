@@ -6,16 +6,20 @@
   <title>幕間・觀劇手冊</title>
   <meta name="description" content="從日期與城市，找到下一場音樂劇。台灣音樂劇官方場次樣本，搭配雙北小中型劇場資訊、Google Maps 連結與創作團隊選集。">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="programme.css">
   <script src="events.js" defer></script><script src="model.js" defer></script><script src="ticket-data.js" defer></script><script src="ticket-model.js" defer></script><script src="app.js" defer></script><script src="guides-data.js" defer></script><script src="guides-model.js" defer></script><script src="guides.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#explore">跳到近期節目</a>
-<header class="site-header"><a class="brand" href="#" aria-label="幕間首頁">幕間<span class="brand-en">STAGE DAYS</span></a><nav aria-label="主選單"><a href="#explore">近期節目</a><a href="#venues">劇場指南</a><a href="#companies">劇團名錄</a><a href="#about">編輯說明</a></nav><span class="edition-label">觀劇手冊</span></header>
+<header class="site-header"><a class="brand" href="#" aria-label="幕間首頁"><span class="brand-mark">幕間</span><span class="brand-en">STAGE<br>DAYS</span></a><nav aria-label="主選單"><a href="#explore">近期節目</a><a href="#venues">劇場指南</a><a href="#companies">劇團名錄</a><a href="#about">編輯說明</a></nav><span class="edition-label">台灣音樂劇・觀劇索引<br><strong>日期／場館／創作團隊</strong></span></header>
 <main>
-  <section class="masthead" aria-labelledby="hero-title"><div><p class="edition-kicker">音樂劇・劇場・創作的人</p><h1 id="hero-title">臺北，最近有什麼戲？</h1><p class="masthead-deck">按日子翻閱，找到想走進的劇場。</p></div><div class="edition-meta"><span>本期收錄</span><strong id="sample-range">2026.10.22 — 2027.01.21</strong><span>台灣時間 UTC+8</span></div></section>
+  <section class="masthead" aria-labelledby="hero-title"><div><p class="edition-kicker">THEATRE / IN CHRONOLOGICAL ORDER</p><h1 id="hero-title">臺北，最近有什麼戲？</h1><p class="masthead-deck">演出時間、場地與購票，照日子往下讀。</p></div><div class="edition-meta"><span>本期收錄</span><strong id="sample-range">2026.10.22 — 2027.01.21</strong><span>台灣時間 UTC+8</span></div></section>
   <section class="explore" id="explore" aria-labelledby="explore-title">
-    <div class="section-top"><div><div class="eyebrow muted">01 / PROGRAMME</div><h2 id="explore-title">近期節目</h2></div><p id="coverage-count" class="coverage-count"></p></div>
-    <div class="filters"><div id="regions" class="regions" role="group" aria-label="篩選地區"></div><div class="filter-controls"><label class="select-wrap"><span class="control-label">城市</span><select id="city-filter" aria-label="篩選城市"><option value="all">所有城市</option></select></label><label class="select-wrap format-select"><span class="control-label">形式</span><select id="show-format" aria-label="篩選演出形式"><option value="all">全部形式</option><option value="musical">音樂劇演出</option><option value="reading">讀劇音樂會</option><option value="other">選粹／Show Musical</option></select></label><label class="search-wrap"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"></circle><path d="m13 13 4 4"></path></svg><span class="sr-only">搜尋劇名或場館</span><input type="search" id="search" placeholder="搜尋劇名或場館"></label></div></div>
+    <div class="programme-layout">
+    <aside class="programme-sidebar" aria-label="節目索引與篩選"><div class="sidebar-heading"><span>01</span><h2>找一場戲</h2></div><details id="filter-drawer" class="filter-drawer" open><summary>地區・城市・形式篩選 <span aria-hidden="true">＋</span></summary>    <div class="filters"><div id="regions" class="regions" role="group" aria-label="篩選地區"></div><div class="filter-controls"><label class="select-wrap"><span class="control-label">城市</span><select id="city-filter" aria-label="篩選城市"><option value="all">所有城市</option></select></label><label class="select-wrap format-select"><span class="control-label">形式</span><select id="show-format" aria-label="篩選演出形式"><option value="all">全部形式</option><option value="musical">音樂劇演出</option><option value="reading">讀劇音樂會</option><option value="other">選粹／Show Musical</option></select></label><label class="search-wrap"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"></circle><path d="m13 13 4 4"></path></svg><span class="sr-only">搜尋劇名或場館</span><input type="search" id="search" placeholder="搜尋劇名或場館"></label></div></div></details><nav id="month-index" class="month-index" aria-label="從月份開始"></nav><p class="sidebar-note">依官方場次整理。<br>未收錄不代表沒有演出。</p></aside>
+    <div class="programme-main">
+    <div class="section-top"><div><div class="eyebrow muted">演出索引 / PROGRAMME</div><h2 id="explore-title">近期節目</h2></div><p id="coverage-count" class="coverage-count"></p></div>
+
     <div class="view-bar"><div class="view-switch" role="group" aria-label="節目顯示方式"><button id="view-programme" aria-pressed="true" aria-controls="programme-view">節目單</button><button id="view-calendar" aria-pressed="false" aria-controls="calendar-view">月曆</button></div><p>依日期、開演時間排列</p></div>
     <section id="programme-view" aria-label="依日期排列的節目單"><div class="programme-toolbar"><label for="programme-start">從這一天看起 <input type="date" id="programme-start"></label><button id="programme-today" class="text-button">今天</button><span id="programme-count" role="status"></span></div><div id="programme-list"></div><button id="programme-more" class="programme-more">展開更多日期</button><p class="programme-endnote">未收錄不代表沒有演出。購票、票況與異動，請以官方最新公告為準。</p></section>
     <div id="calendar-view" hidden>
@@ -25,6 +29,7 @@
     </div>
     <section class="upcoming" aria-labelledby="upcoming-title"><div class="subheading"><div><div class="eyebrow muted">ON THE HORIZON</div><h3 id="upcoming-title">接下來，舞台見。</h3></div><span id="upcoming-summary"></span></div><div id="upcoming-list" class="upcoming-list"></div></section>
     </div>
+    </div></div>
   </section>
 
   <section class="guide-section venues-section" id="venues" aria-labelledby="venues-title">
