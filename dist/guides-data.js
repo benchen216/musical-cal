@@ -24,8 +24,9 @@ window.STAGE_GUIDES = {
           "url": "https://culture.gov.taipei/cp.aspx?n=50e12856e54ef895&s=ED9D61A3ADA5A54F"
         }
       ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E6%BA%90%E5%8A%87%E5%A0%B4%20%E4%B8%BB%E5%8A%87%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%BE%85%E6%96%AF%E7%A6%8F%E8%B7%AF%E5%9B%9B%E6%AE%B592%E8%99%9F10%E6%A8%93",
-      "checkedAt": "2026-10-22"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E6%BA%90%E5%8A%87%E5%A0%B4+%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%BE%85%E6%96%AF%E7%A6%8F%E8%B7%AF%E5%9B%9B%E6%AE%B592%E8%99%9F10%E6%A8%93",
+      "checkedAt": "2026-10-22",
+      "city": "臺北市"
     },
     {
       "id": "tpac-blue-box",
@@ -58,8 +59,9 @@ window.STAGE_GUIDES = {
           "url": "https://tpac.org.taipei/traffic-drive"
         }
       ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83%20%E8%97%8D%E7%9B%92%E5%AD%90%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%8A%8D%E6%BD%AD%E8%B7%AF1%E8%99%9F",
-      "checkedAt": "2026-10-22"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83+%E8%97%8D%E7%9B%92%E5%AD%90+%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%8A%8D%E6%BD%AD%E8%B7%AF1%E8%99%9F",
+      "checkedAt": "2026-10-22",
+      "city": "臺北市"
     },
     {
       "id": "wenshan-theater",
@@ -88,8 +90,9 @@ window.STAGE_GUIDES = {
           "url": "https://www.tapo.gov.taipei/News_Content.aspx?n=2205E73389E51172&s=7248BAEAC6510983"
         }
       ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E5%B1%B1%E5%8A%87%E5%A0%B4%20%E5%9C%B0%E4%B8%8B%E4%BA%8C%E6%A8%93%E5%8A%87%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%99%AF%E6%96%87%E8%A1%9732%E8%99%9F",
-      "checkedAt": "2026-10-22"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E5%B1%B1%E5%8A%87%E5%A0%B4+%E5%9C%B0%E4%B8%8B%E4%BA%8C%E6%A8%93%E5%8A%87%E5%A0%B4+%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%99%AF%E6%96%87%E8%A1%9732%E8%99%9F",
+      "checkedAt": "2026-10-22",
+      "city": "臺北市"
     },
     {
       "id": "wan-theater",
@@ -113,8 +116,9 @@ window.STAGE_GUIDES = {
           "url": "https://eculture.gov.taipei/theatre/zh-tw/theatreinfo/17"
         }
       ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%BA%A7%E6%9B%89%E5%8A%87%E5%A0%B4%20%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E5%A4%A7%E7%90%86%E8%A1%97132-9%E8%99%9F",
-      "checkedAt": "2026-10-22"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%BA%A7%E6%9B%89%E5%8A%87%E5%A0%B4+%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E5%A4%A7%E7%90%86%E8%A1%97132-9%E8%99%9F",
+      "checkedAt": "2026-10-22",
+      "city": "臺北市"
     },
     {
       "id": "ntch-experimental",
@@ -146,8 +150,9 @@ window.STAGE_GUIDES = {
           "url": "https://npac-ntch.org/about/introduction/design"
         }
       ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%AE%B6%E5%85%A9%E5%BB%B3%E9%99%A2%20%E5%AF%A6%E9%A9%97%E5%8A%87%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8D%97%E8%B7%AF21-1%E8%99%9F",
-      "checkedAt": "2026-10-22"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%AE%B6%E5%85%A9%E5%BB%B3%E9%99%A2+%E5%AF%A6%E9%A9%97%E5%8A%87%E5%A0%B4+%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8D%97%E8%B7%AF21-1%E8%99%9F",
+      "checkedAt": "2026-10-22",
+      "city": "臺北市"
     },
     {
       "id": "guling-experimental",
@@ -176,7 +181,66 @@ window.STAGE_GUIDES = {
           "url": "https://eculture.gov.taipei/theatre/zh-tw/theatreInfo/21"
         }
       ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%AF%E5%B6%BA%E8%A1%97%E5%B0%8F%E5%8A%87%E5%A0%B4%20%E4%B8%80%E6%A8%93%E5%AF%A6%E9%A9%97%E5%8A%87%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%89%AF%E5%B6%BA%E8%A1%975%E5%B7%B72%E8%99%9F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%AF%E5%B6%BA%E8%A1%97%E5%B0%8F%E5%8A%87%E5%A0%B4+%E4%B8%80%E6%A8%93%E5%AF%A6%E9%A9%97%E5%8A%87%E5%A0%B4+%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%89%AF%E5%B6%BA%E8%A1%975%E5%B7%B72%E8%99%9F",
+      "checkedAt": "2026-10-22",
+      "city": "臺北市"
+    },
+    {
+      "id": "shulin-arts-center",
+      "name": "樹林藝文中心",
+      "hallName": "演藝廳",
+      "city": "新北市",
+      "district": "樹林區",
+      "address": "新北市樹林區樹新路40-8號",
+      "summary": "鄰近樹林車站的專業展演空間，觀眾席可轉換為單面、三面或四面配置。約三百至近五百席的尺度，適合與水源劇場比較。",
+      "capacityText": "單面361席／三面439席／四面478席（扣除工作席、無障礙席及陪同席）",
+      "format": "單面式／三面式／四面式",
+      "comparisonGroup": "水源規模",
+      "note": "採2026-06-01官方技術資料；館方簡介的「最多近500位」為概略描述，實際開放席位請以節目售票圖為準。",
+      "transit": "臺鐵樹林站前站（鎮前街）出口，沿鎮前街、樹新路步行約8–10分鐘。",
+      "officialUrl": "https://www.culture.ntpc.gov.tw/shulin_artcenter_chi/xmdoc/cont?xsmsid=0L299374431306802027",
+      "sources": [
+        {
+          "label": "樹林藝文中心：場館介紹與配置形式",
+          "url": "https://www.culture.ntpc.gov.tw/shulin_artcenter_chi/xmdoc/cont?xsmsid=0L299374431306802027"
+        },
+        {
+          "label": "樹林藝文中心：技術資料（2026-06-01版，含各配置席次）",
+          "url": "https://www.culture.ntpc.gov.tw/files/file_pool/1/0Q152356305603254654/%E6%A8%B9%E6%9E%97%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83%E6%BC%94%E8%97%9D%E5%BB%B3%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%9920260601.pdf"
+        },
+        {
+          "label": "樹林藝文中心：地址與交通",
+          "url": "https://www.culture.ntpc.gov.tw/shulin_artcenter_chi/xmdoc/cont?xsmsid=0J080500979937740140"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%B9%E6%9E%97%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83+%E6%BC%94%E8%97%9D%E5%BB%B3+%E6%96%B0%E5%8C%97%E5%B8%82%E6%A8%B9%E6%9E%97%E5%8D%80%E6%A8%B9%E6%96%B0%E8%B7%AF40-8%E8%99%9F",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "cloud-gate-theater",
+      "name": "雲門劇場",
+      "hallName": "劇場",
+      "city": "新北市",
+      "district": "淡水區",
+      "address": "新北市淡水區中正路一段6巷36號",
+      "summary": "淡水林景中的專業劇場，可採鏡框式演出，也能收攏一樓觀眾席轉為黑盒子空間。此筆為主要劇場，不包含園區內小劇場與戶外劇場。",
+      "capacityText": "400多席（依官方場館介紹）",
+      "format": "鏡框式／黑盒子",
+      "comparisonGroup": "水源規模",
+      "note": "觀眾容量接近水源劇場；一樓座椅可收攏，實際開放席位依演出配置調整。不以舊資料的450席作現行固定席次。",
+      "transit": "捷運淡水站2號出口轉836公車，於滬尾砲台（雲門劇場）站下車，步行約3分鐘。接駁車依各節目公告。",
+      "officialUrl": "https://www.cloudgate.org.tw/cgt/technical-infomation",
+      "sources": [
+        {
+          "label": "雲門劇場：劇場型式、容量與其他空間區別",
+          "url": "https://www.cloudgate.org.tw/cgt/technical-infomation"
+        },
+        {
+          "label": "雲門劇場：地址與交通",
+          "url": "https://www.cloudgate.org.tw/getting-here"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%B2%E9%96%80%E5%8A%87%E5%A0%B4+%E5%8A%87%E5%A0%B4+%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF%E4%B8%80%E6%AE%B56%E5%B7%B736%E8%99%9F",
       "checkedAt": "2026-10-22"
     }
   ],
