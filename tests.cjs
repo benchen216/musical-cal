@@ -16,4 +16,7 @@ assert.ok(writeMusical.every(s=>s.production.city==='臺北市'&&M.performanceFo
 for(let i=1;i<all.length;i++)assert.ok(all[i-1].date+'T'+all[i-1].time<=all[i].date+'T'+all[i].time,'Sessions must be chronological, with no pinned titles');
 const reversed={...data,productions:[...data.productions].reverse()};assert.deepEqual(Array.from(M.sessions(reversed),s=>s.date+'T'+s.time),Array.from(all,s=>s.date+'T'+s.time));
 
+const footer=fs.readFileSync('dist/index.html','utf8').split('<footer>')[1].split('</footer>')[0];
+for(const url of ['https://github.com/benchen216','https://www.instagram.com/benchen216/']){assert.ok(footer.includes(`href="${url}" target="_blank" rel="noopener noreferrer"`),'Creator links must use exact approved destinations with safe new-tab attributes');}
+assert.match(footer,/aria-label="創作者連結"/);
 console.log(`PASS: ${all.length} verified sessions; ${new Set(data.productions.map(p=>p.productionId)).size} works; required data, dates, unique sessions, region/city filters, timezone, month grid and grouping checks.`);
