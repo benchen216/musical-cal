@@ -4,19 +4,20 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#492c35">
   <title>幕間・台灣音樂劇日曆</title>
-  <meta name="description" content="從日期與城市，找到下一場音樂劇。台灣音樂劇三個月官方場次樣本，提供行事曆、地區篩選與官方購票資訊。">
+  <meta name="description" content="從日期與城市，找到下一場音樂劇。台灣音樂劇官方場次樣本，搭配臺北小中型劇場資訊、Google Maps 連結與創作團隊選集。">
   <link rel="stylesheet" href="styles.css">
-  <script src="events.js" defer></script><script src="model.js" defer></script><script src="app.js" defer></script>
+  <script src="events.js" defer></script><script src="model.js" defer></script><script src="ticket-data.js" defer></script><script src="ticket-model.js" defer></script><script src="app.js" defer></script><script src="guides-data.js" defer></script><script src="guides-model.js" defer></script><script src="guides.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#explore">跳到演出日曆</a>
-<header class="site-header"><a class="brand" href="#" aria-label="幕間首頁"><span class="brand-mark" aria-hidden="true">幕</span><span>幕間<span class="brand-en">STAGE DAYS</span></span></a><nav aria-label="主選單"><a href="#explore">演出日曆</a><a href="#about">關於樣本 <span aria-hidden="true">↗</span></a></nav><span class="sample-pill"><i></i> 日曆樣本</span></header>
+<header class="site-header"><a class="brand" href="#" aria-label="幕間首頁"><span class="brand-mark" aria-hidden="true">幕</span><span>幕間<span class="brand-en">STAGE DAYS</span></span></a><nav aria-label="主選單"><a href="#explore">演出日曆</a><a href="#venues">劇場指南</a><a href="#companies">劇團名錄</a><a href="#about">關於整理</a></nav><span class="sample-pill"><i></i> 劇場選集</span></header>
 <main>
   <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-copy"><div class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> TAIWAN MUSICAL THEATRE</div><h1 id="hero-title">留一個晚上，<br>給<span class="gold">舞台。</span></h1><p>從日常走進故事。<br>用日期和城市，找到你的下一場音樂劇。</p><a class="hero-link" href="#explore">翻開演出日曆 <span aria-hidden="true">↓</span></a></div>
+    <div class="hero-copy"><div class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> TAIWAN MUSICAL THEATRE</div><h1 id="hero-title">留一個晚上，<br>給<span class="gold">舞台。</span></h1><p>從日常走進故事。<br>用日期和城市，找到下一場音樂劇。<br>也認識故事發生的地方，與創作故事的人。</p><a class="hero-link" href="#explore">翻開演出日曆 <span aria-hidden="true">↓</span></a></div>
     <div class="stage-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><div class="stage-door"><div class="door-light"></div><span class="door-line"></span><div class="stairs"></div></div><div class="art-caption">EVERY DAY<br>COULD BE A SHOW DAY.</div><span class="art-number">01 / 第一幕</span></div>
-    <div class="hero-footer"><span>2026.10.22 <b>—</b> 2027.01.21</span><span>三個月場次選集 <i aria-hidden="true">·</i> 台灣時間 UTC+8</span></div>
+    <div class="hero-footer"><span id="sample-range">2026.10.22 <b>—</b> 2027.01.21</span><span>三個月場次選集 <i aria-hidden="true">·</i> 台灣時間 UTC+8</span></div>
   </section>
+  <nav class="discovery-nav" aria-label="探索幕間"><a href="#explore"><span class="discovery-num">01</span><span><strong>選一天，看場戲</strong><small>演出日曆與城市篩選</small></span><span aria-hidden="true">↗</span></a><a href="#venues"><span class="discovery-num">02</span><span><strong>找一座剛好的劇場</strong><small>從水源劇場出發的空間指南</small></span><span aria-hidden="true">↗</span></a><a href="#companies"><span class="discovery-num">03</span><span><strong>認識舞台後的創作者</strong><small>音樂劇與劇場團隊選集</small></span><span aria-hidden="true">↗</span></a></nav>
   <section class="explore" id="explore" aria-labelledby="explore-title">
     <div class="section-top"><div><div class="eyebrow muted">FIND YOUR NEXT SHOW</div><h2 id="explore-title">哪一天，想看戲？</h2></div><p id="coverage-count" class="coverage-count"></p></div>
     <div class="filters"><div id="regions" class="regions" role="group" aria-label="篩選地區"></div><div class="filter-controls"><label class="select-wrap"><span class="sr-only">篩選城市</span><span aria-hidden="true">⌖</span><select id="city-filter" aria-label="篩選城市"><option value="all">所有城市</option></select></label><label class="search-wrap"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"></circle><path d="m13 13 4 4"></path></svg><span class="sr-only">搜尋劇名或場館</span><input type="search" id="search" placeholder="搜尋劇名或場館"></label></div></div>
@@ -26,7 +27,21 @@
     </div>
     <section class="upcoming" aria-labelledby="upcoming-title"><div class="subheading"><div><div class="eyebrow muted">ON THE HORIZON</div><h3 id="upcoming-title">接下來，舞台見。</h3></div><span id="upcoming-summary"></span></div><div id="upcoming-list" class="upcoming-list"></div></section>
   </section>
-  <section class="about" id="about" aria-labelledby="about-title"><div class="about-intro"><div class="eyebrow muted">A SMALL, HONEST BEGINNING</div><h2 id="about-title">先從一份<br>音樂劇日曆開始。</h2><p>這是未來三個月的資料樣本，不是全台完整節目表。只放入能確認日期與時間的官方場次，不用猜測填滿日曆。</p></div><div class="about-details"><div class="info-row"><span>01</span><div><h3>場次有依據，票況看官方</h3><p>資料核對日為 2026 年 10 月 22 日。場次可能異動，購票前請以官方公告為準；本頁不顯示即時座位或售票狀態。</p></div></div><div class="info-row"><span>02</span><div><h3>沒有收錄，不代表沒有演出</h3><p>目前僅收錄部分音樂劇及親子音樂劇。北、中、南皆可篩選；資料較少的地區與月份會保留空白，之後可擴充其他劇場類型。</p></div></div><div class="info-row"><span>03</span><div><h3>保留出處，也尊重創作</h3><p>每筆演出附官方節目或售票連結。本站視覺以原創 CSS 繪製，未使用劇照或海報。此樣本為靜態整理，尚未啟用自動更新。</p></div></div><details class="sources"><summary>查看資料來源與收錄場次 <span aria-hidden="true">＋</span></summary><div id="source-list"></div></details></div></section>
+
+  <section class="guide-section venues-section" id="venues" aria-labelledby="venues-title">
+    <div class="section-top"><div><div class="eyebrow muted">PLACES FOR STORIES</div><h2 id="venues-title">找一座剛好的劇場。</h2></div><span class="guide-edition">TAIPEI · 場館指南</span></div>
+    <div class="guide-intro"><p>以<strong>水源劇場</strong>為起點，認識臺北的小、中型表演空間。先看位置、廳別與空間形式，再決定哪一座舞台適合你的下一次相遇。</p><p class="guide-note">這是精選導覽，不是同級排名或完整租借清單。席位數只供空間比較；可售座位、配置、視線與使用規則，請以場館及當場演出公告為準。</p></div>
+    <div class="guide-controls"><label class="guide-search"><span aria-hidden="true">⌕</span><span class="sr-only">搜尋劇場、廳別或地址</span><input id="venue-search" type="search" placeholder="搜尋劇場、廳別或地址"></label><label class="guide-select"><span>行政區</span><select id="venue-district" aria-label="篩選劇場行政區"><option value="all">所有行政區</option></select></label><button class="guide-reset" id="venue-reset">清除篩選</button><span class="guide-result" id="venue-count" role="status" aria-live="polite"></span></div>
+    <div class="guide-grid venue-grid" id="venue-list"></div>
+    <div class="guide-footnote"><span>⌖</span><p>Google Maps 會另開分頁，搜尋場館名稱與已核對地址。出發前請確認當天的<strong>演出廳別與入口</strong>，同一建築內可能有不同空間。</p></div>
+  </section>
+  <section class="guide-section companies-section" id="companies" aria-labelledby="companies-title">
+    <div class="section-top"><div><div class="eyebrow muted">PEOPLE BEHIND THE STAGE</div><h2 id="companies-title">故事，從他們開始。</h2></div><span class="guide-edition">TAIWAN · 創作團隊選集</span></div>
+    <div class="guide-intro"><p>從<strong>三點水製藝文化</strong>與<strong>躍演</strong>出發，整理值得繼續認識的音樂劇與劇場創作團隊。用作品方向找同好，也直接走進他們的官方網站。</p><p class="guide-note">這不是全臺劇團名冊，也不以人數、營收或知名度判定「同等規模」。依官方自述整理創作方向，並區分劇團、工作室與製作公司；名錄收錄不代表目前一定有公開演出。</p></div>
+    <div class="guide-controls"><label class="guide-search"><span aria-hidden="true">⌕</span><span class="sr-only">搜尋劇團或創作方向</span><input id="company-search" type="search" placeholder="搜尋劇團或創作方向"></label><label class="guide-select"><span>創作方向</span><select id="company-focus" aria-label="篩選團隊創作方向"><option value="all">所有方向</option></select></label><button class="guide-reset" id="company-reset">清除篩選</button><span class="guide-result" id="company-count" role="status" aria-live="polite"></span></div>
+    <div class="guide-grid company-grid" id="company-list"></div>
+  </section>
+  <section class="about" id="about" aria-labelledby="about-title"><div class="about-intro"><div class="eyebrow muted">A SMALL, HONEST BEGINNING</div><h2 id="about-title">從日曆開始，<br>走近台灣劇場。</h2><p>演出日曆保留未來三個月的官方場次樣本；場館與團隊則是一份持續可擴充的選集。只放能核對的資訊，不用猜測填滿日曆，也不把精選名單當成全貌。</p></div><div class="about-details"><div class="info-row"><span>01</span><div><h3>場次有依據，票況看官方</h3><p>資料核對日為 2026 年 10 月 22 日。場次可能異動，購票前請以官方公告為準；本頁不顯示即時座位或售票狀態。</p></div></div><div class="info-row"><span>02</span><div><h3>沒有收錄，不代表沒有演出</h3><p>目前僅收錄部分音樂劇及親子音樂劇。北、中、南皆可篩選；資料較少的地區與月份會保留空白，之後可擴充其他劇場類型。</p></div></div><div class="info-row"><span>03</span><div><h3>保留出處，也尊重創作</h3><p>每筆演出附官方節目或售票連結；場館與團隊卡片另附核對來源及日期。本站視覺以原創 CSS 繪製，未使用劇照或海報。全站使用靜態資料，票況與場館異動仍以官方最新公告為準。</p></div></div><details class="sources"><summary>查看資料來源與收錄場次 <span aria-hidden="true">＋</span></summary><div id="source-list"></div></details></div></section>
 </main>
 <footer><a class="footer-brand" href="#">幕間 <span>STAGE DAYS</span></a><p>願每一場故事，都剛好遇見你。</p><span>TAIWAN · UTC+8</span></footer>
 <noscript><p class="noscript">請開啟 JavaScript 使用互動日曆。官方來源與資料收錄範圍見本頁說明。</p></noscript>
