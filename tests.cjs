@@ -20,3 +20,10 @@ const footer=fs.readFileSync('dist/index.html','utf8').split('<footer>')[1].spli
 for(const url of ['https://github.com/benchen216','https://www.instagram.com/benchen216/']){assert.ok(footer.includes(`href="${url}" target="_blank" rel="noopener noreferrer"`),'Creator links must use exact approved destinations with safe new-tab attributes');}
 assert.match(footer,/aria-label="創作者連結"/);
 console.log(`PASS: ${all.length} verified sessions; ${new Set(data.productions.map(p=>p.productionId)).size} works; required data, dates, unique sessions, region/city filters, timezone, month grid and grouping checks.`);
+assert.equal(all.length,186);assert.equal(new Set(data.productions.map(p=>p.productionId)).size,35);
+assert.equal(M.sessions(data,{query:'Do Re Mi'}).length,12);assert.ok(M.sessions(data,{query:'Do Re Mi'}).every(s=>M.performanceFormat(s.production)==='other'));
+assert.equal(M.sessions(data,{city:'宜蘭縣'}).length,2);assert.equal(M.cityRegions['宜蘭縣'],'north');
+for(const title of ['找死俱樂部','On Air','暗戀對象加入了邪教該怎麼辦','刻在你心底的名字','反攻！反攻！下一位偉人請就位'])assert.ok(M.sessions(data,{query:title}).every(s=>M.performanceFormat(s.production)==='reading'));
+assert.equal(M.sessions(data,{query:'烏秋'}).length,1);assert.equal(M.sessions(data,{query:'烏秋'})[0].date,'2027-01-22');
+assert.equal(M.sessions(data,{query:'海象莫雷',city:'臺中市'}).length,4);
+assert.equal(M.sessions(data,{query:'轟吧'}).some(s=>s.date==='2026-10-25'&&s.time==='10:30'),false);

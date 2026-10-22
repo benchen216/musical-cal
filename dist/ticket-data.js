@@ -356,17 +356,17 @@ window.STAGE_TICKETS = {
   "opentix-2104768412676886528-cac32209": {
     "saleStatusText": "官方售票頁已公布；即時餘票未確認",
     "onSaleAt": "2026-10-15T12:00:00+08:00",
-    "onSaleText": "單戲票券全面啟售：2026/10/15 12:00；六戲通票於10/14 12:00開放，園丁限定套票優先購為10/13 12:00–10/14 11:59。",
+    "onSaleText": "單戲票券2026/10/15 12:00全面啟售；六戲通票10/14 12:00開放，10/13園丁優購僅適用套票。",
     "earlyBird": [],
     "bookingUrl": "https://www.opentix.life/event/2104768412676886528",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-10-23",
     "sources": [
       {
         "label": "OPENTIX 官方節目與售票頁",
         "url": "https://www.opentix.life/event/2104768412676886528"
       }
     ],
-    "notes": "官方售票與異動公告優先；沒有確認的開賣時間或優惠條件保留未知，不提供即時餘票。"
+    "notes": "官方售票與異動公告優先；沒有確認的開賣時間或優惠條件保留未知，不提供即時餘票。 園丁計畫本屆已招募完畢；不能新加入申領補助。"
   },
   "opentix-2029816885442543616-51449769": {
     "saleStatusText": "官方售票頁已公布；即時餘票未確認",
@@ -773,5 +773,257 @@ window.STAGE_TICKETS = {
       }
     ],
     "notes": "公告票價為NT$1,000–1,800。早鳥已結束，不代表目前沒有其他優惠。開賣時間採公開折扣文字；頁面結構化資料的5/19起始值不當作一般開賣日。文化幣及其他資格優惠請查看官方公告。"
+  },
+  "opentix-2105853083317858305-acca0368": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-10-15T12:00:00+08:00",
+    "onSaleText": "單戲票券2026/10/15 12:00全面啟售；10/13為園丁限定套票優先購，10/14為六戲通票。",
+    "earlyBird": [],
+    "bookingUrl": "https://www.opentix.life/event/2105853083317858305",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2105853083317858305"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。園丁補助有完整參與及繳交報告等條件，非一般票價折扣；本屆園丁招募已結束。 公告票價NT$800–800。"
+  },
+  "opentix-2107010598838661121-acca0368": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-10-15T12:00:00+08:00",
+    "onSaleText": "單戲票券2026/10/15 12:00全面啟售；10/13為園丁限定套票優先購，10/14為六戲通票。",
+    "earlyBird": [
+      {
+        "label": "早鳥票",
+        "window": "即日起至2026/11/01 23:59",
+        "discount": "7折",
+        "conditions": "公告未寫明起始時刻；其他限制及可用席位依官方購票頁。",
+        "status": "current",
+        "endsAt": "2026-11-01T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2107010598838661121",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2107010598838661121"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。園丁補助有完整參與及繳交報告等條件，非一般票價折扣；本屆園丁招募已結束。 公告票價NT$800–800。"
+  },
+  "opentix-2105961360965922817-acca0368": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-10-15T12:00:00+08:00",
+    "onSaleText": "單戲票券2026/10/15 12:00全面啟售；10/13為園丁限定套票優先購，10/14為六戲通票。",
+    "earlyBird": [],
+    "bookingUrl": "https://www.opentix.life/event/2105961360965922817",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2105961360965922817"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。園丁補助有完整參與及繳交報告等條件，非一般票價折扣；本屆園丁招募已結束。 公告票價NT$800–1200。"
+  },
+  "opentix-2102694867868659713-acca0368": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-10-15T12:00:00+08:00",
+    "onSaleText": "單戲票券2026/10/15 12:00全面啟售；10/13為園丁限定套票優先購，10/14為六戲通票。",
+    "earlyBird": [],
+    "bookingUrl": "https://www.opentix.life/event/2102694867868659713",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2102694867868659713"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。園丁補助有完整參與及繳交報告等條件，非一般票價折扣；本屆園丁招募已結束。 公告票價NT$666–666。"
+  },
+  "opentix-2105556026520125441-acca0368": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-10-15T12:00:00+08:00",
+    "onSaleText": "單戲票券2026/10/15 12:00全面啟售；10/13為園丁限定套票優先購，10/14為六戲通票。",
+    "earlyBird": [],
+    "bookingUrl": "https://www.opentix.life/event/2105556026520125441",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2105556026520125441"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。園丁補助有完整參與及繳交報告等條件，非一般票價折扣；本屆園丁招募已結束。 公告票價NT$800–800。"
+  },
+  "opentix-2100041290423484417-49e8f7ee": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-10-07T12:00:00+08:00",
+    "onSaleText": "早鳥公開啟售2026/10/07 12:00；10/04 12:00為試演場優惠代碼優先購。",
+    "earlyBird": [
+      {
+        "label": "早鳥優惠",
+        "window": "2026/10/07 12:00–10/28 23:59",
+        "discount": "88折",
+        "conditions": "最低票區NT$1,200不適用；贈限量海報任一款，依官方領取規則。",
+        "status": "current",
+        "startsAt": "2026-10-07T12:00:00+08:00",
+        "endsAt": "2026-10-28T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2100041290423484417",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2100041290423484417"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。 公告票價NT$1200–2300。"
+  },
+  "opentix-2083124898860347393-76e4ce59": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-08-20T12:00:00+08:00",
+    "onSaleText": "限時啟售優惠自2026/08/20 12:00；需專屬優惠碼，非無條件折扣。",
+    "earlyBird": [
+      {
+        "label": "超值早鳥",
+        "window": "2026/08/26 00:00–10/20 23:59",
+        "discount": "85折",
+        "conditions": "須米特LINE好友專屬優惠碼，最低票價不適用，不可併用。",
+        "status": "expired",
+        "startsAt": "2026-08-26T00:00:00+08:00",
+        "endsAt": "2026-10-20T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2083124898860347393",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2083124898860347393"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。10/21起米特LINE好友專屬代碼9折，最低票價除外。 公告票價NT$600–2000。"
+  },
+  "opentix-2083124898860347393-07449495": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-08-20T12:00:00+08:00",
+    "onSaleText": "限時啟售優惠自2026/08/20 12:00；需專屬優惠碼，非無條件折扣。",
+    "earlyBird": [
+      {
+        "label": "超值早鳥",
+        "window": "2026/08/26 00:00–10/20 23:59",
+        "discount": "85折",
+        "conditions": "須米特LINE好友專屬優惠碼，最低票價不適用，不可併用。",
+        "status": "expired",
+        "startsAt": "2026-08-26T00:00:00+08:00",
+        "endsAt": "2026-10-20T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2083124898860347393",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2083124898860347393"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。10/21起米特LINE好友專屬代碼9折，最低票價除外。 公告票價NT$600–2000。"
+  },
+  "opentix-2083124898860347393-1903a1f1": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-08-20T12:00:00+08:00",
+    "onSaleText": "限時啟售優惠自2026/08/20 12:00；需專屬優惠碼，非無條件折扣。",
+    "earlyBird": [
+      {
+        "label": "超值早鳥",
+        "window": "2026/08/26 00:00–10/20 23:59",
+        "discount": "85折",
+        "conditions": "須米特LINE好友專屬優惠碼，最低票價不適用，不可併用。",
+        "status": "expired",
+        "startsAt": "2026-08-26T00:00:00+08:00",
+        "endsAt": "2026-10-20T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2083124898860347393",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2083124898860347393"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。10/21起米特LINE好友專屬代碼9折，最低票價除外。 公告票價NT$600–2000。"
+  },
+  "opentix-2083124898860347393-2a743c82": {
+    "saleStatusText": "已公布售票資訊；即時餘票未確認",
+    "onSaleAt": "2026-08-20T12:00:00+08:00",
+    "onSaleText": "限時啟售優惠自2026/08/20 12:00；需專屬優惠碼，非無條件折扣。",
+    "earlyBird": [
+      {
+        "label": "超值早鳥",
+        "window": "2026/08/26 00:00–10/20 23:59",
+        "discount": "85折",
+        "conditions": "須米特LINE好友專屬優惠碼，最低票價不適用，不可併用。",
+        "status": "expired",
+        "startsAt": "2026-08-26T00:00:00+08:00",
+        "endsAt": "2026-10-20T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2083124898860347393",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方節目與折扣",
+        "url": "https://www.opentix.life/event/2083124898860347393"
+      }
+    ],
+    "notes": "即時餘票未核；未以結構化資料的InStock推定有票。10/21起米特LINE好友專屬代碼9折，最低票價除外。 公告票價NT$600–2000。"
+  },
+  "murray-2026-taichung": {
+    "saleStatusText": "售票頁已公告；即時餘票未確認",
+    "onSaleAt": null,
+    "onSaleText": "臺中站全面啟售時刻未確認；不以他站啟售日代入。",
+    "earlyBird": [
+      {
+        "label": "早鳥優惠",
+        "window": "即日起至2026/10/11 23:59",
+        "discount": "75折",
+        "conditions": "不限票區；官方起始文字為即日起，確切起日未明。",
+        "status": "expired",
+        "endsAt": "2026-10-11T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2087017782302437377",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "OPENTIX官方巡演頁",
+        "url": "https://www.opentix.life/event/2087017782302437377"
+      }
+    ],
+    "notes": "10/12 00:00起同場3張以上家庭套票82折、同場2張雙人套票85折，其他優惠依官方資格。一般開賣時刻與各票級未逐項確認。"
+  },
+  "breeze-years-2026-kaohsiung": {
+    "saleStatusText": "官方售票頁已公布；即時餘票未確認",
+    "onSaleAt": null,
+    "onSaleText": "官方公告2026/10/15啟售，開賣時刻未確認。",
+    "earlyBird": [],
+    "bookingUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1GUS4PQ",
+    "checkedAt": "2026-10-23",
+    "sources": [
+      {
+        "label": "衛武營官方節目",
+        "url": "https://www.npac-weiwuying.org/programs/6acef4ed8697570008960193"
+      },
+      {
+        "label": "年代官方售票",
+        "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1GUS4PQ"
+      }
+    ],
+    "notes": "票價NT$500、1,000、1,500、2,000、2,500、3,000。未確認早鳥；身心障礙與必要陪同者一名5折，須憑證並同時入場。"
   }
 };

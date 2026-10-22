@@ -1,7 +1,7 @@
 window.STAGE_DATA = {
-  "checkedAt": "2026-10-22",
+  "checkedAt": "2026-10-23",
   "start": "2026-10-22",
-  "end": "2027-01-21",
+  "end": "2027-01-22",
   "productions": [
     {
       "id": "home-run-2026-0",
@@ -333,8 +333,8 @@ window.STAGE_DATA = {
       "city": "臺北市",
       "region": "north",
       "venue": "濕地 venue B1",
-      "checkedAt": "2026-10-22",
-      "notes": "限16歲（含）以上入場；約90分鐘，無中場休息。官方售票頁防颱公告稱10/23–10/25按原計畫準備，演出前請再查看最新公告；10/25 12:00僅為條件式加開規劃，未列入日曆。",
+      "checkedAt": "2026-10-23",
+      "notes": "原定場次仍列於官方售票頁；10/23最終天候公告尚未核得，出發前請查主辦最新公告。10/25 12:00為防颱條件式備案，未確認，未列入日曆。",
       "sessions": [
         {
           "date": "2026-10-23",
@@ -376,6 +376,10 @@ window.STAGE_DATA = {
           "date": "2026-11-01",
           "time": "16:00"
         }
+      ],
+      "unknowns": [
+        "10/23最終天候公告未核得",
+        "即時餘票未確認"
       ]
     },
     {
@@ -1285,6 +1289,395 @@ window.STAGE_DATA = {
           "date": "2026-11-08",
           "time": "14:30"
         }
+      ]
+    },
+    {
+      "id": "opentix-2105853083317858305-acca0368",
+      "productionId": "opentix-2105853083317858305",
+      "title": "找死俱樂部",
+      "subtitle": "【讀劇匯】音樂劇《找死俱樂部》讀劇演出",
+      "category": "音樂劇讀劇演出",
+      "summary": "以死亡練習與青少年的生活困境為題，透過讀劇呈現對生命及親情的探索。",
+      "ticketUrl": "https://www.opentix.life/event/2105853083317858305",
+      "sourceUrl": "https://www.opentix.life/event/2105853083317858305",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "PLAY HUB 玩・劇 創意基地",
+      "checkedAt": "2026-10-23",
+      "notes": "讀劇匯發展中作品，非完整舞台製作；演後另有約30分鐘文本交流。官方分級為保護級；自由入座，無中場休息。",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-12-21",
+          "time": "19:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2107010598838661121-acca0368",
+      "productionId": "opentix-2107010598838661121",
+      "title": "On Air",
+      "subtitle": "【讀劇匯】原創音樂劇《On Air》",
+      "category": "音樂劇讀劇演出",
+      "summary": "電台主持人晴宜與一位照顧昏迷女兒的父親因一首歌交會，重新思考告別、陪伴與失去親人後的生活。",
+      "ticketUrl": "https://www.opentix.life/event/2107010598838661121",
+      "sourceUrl": "https://www.opentix.life/event/2107010598838661121",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "PLAY HUB 玩・劇 創意基地",
+      "checkedAt": "2026-10-23",
+      "notes": "讀劇匯發展中作品，非完整舞台製作；演後另有約30分鐘文本交流。",
+      "sessions": [
+        {
+          "date": "2026-12-06",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-07",
+          "time": "19:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2105961360965922817-acca0368",
+      "productionId": "opentix-2105961360965922817",
+      "title": "反攻！反攻！下一位偉人請就位",
+      "subtitle": "【讀劇匯】音樂劇《反攻！反攻！下一位偉人請就位》",
+      "category": "音樂劇讀劇演出",
+      "summary": "一座小島的領袖突然離世，接班鬥爭與反攻計畫交織成諷刺權力遊戲。",
+      "ticketUrl": "https://www.opentix.life/event/2105961360965922817",
+      "sourceUrl": "https://www.opentix.life/event/2105961360965922817",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "PLAY HUB 玩・劇 創意基地",
+      "checkedAt": "2026-10-23",
+      "notes": "讀劇匯發展中作品，非完整舞台製作；演後另有約30分鐘文本交流。",
+      "sessions": [
+        {
+          "date": "2026-12-24",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-26",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-12-26",
+          "time": "19:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2102694867868659713-acca0368",
+      "productionId": "opentix-2102694867868659713",
+      "title": "暗戀對象加入了邪教該怎麼辦",
+      "subtitle": "【讀劇匯】四喜坊劇集 音樂劇《暗戀對象加入了邪教該怎麼辦》",
+      "category": "音樂劇讀劇演出",
+      "summary": "咖啡廳店員重遇暗戀多年的學長，愛情與追求完美的信念逐漸產生衝突。",
+      "ticketUrl": "https://www.opentix.life/event/2102694867868659713",
+      "sourceUrl": "https://www.opentix.life/event/2102694867868659713",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "PLAY HUB 玩・劇 創意基地",
+      "checkedAt": "2026-10-23",
+      "notes": "讀劇匯發展中作品，非完整舞台製作；演後另有約30分鐘文本交流。",
+      "sessions": [
+        {
+          "date": "2026-12-10",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-11",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-12",
+          "time": "14:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2105556026520125441-acca0368",
+      "productionId": "opentix-2105556026520125441",
+      "title": "刻在你心底的名字",
+      "subtitle": "【讀劇匯】音樂劇《刻在你心底的名字》讀劇演出",
+      "category": "音樂劇讀劇演出",
+      "summary": "改編同名電影，以解嚴前後的臺灣為背景，描寫兩名少年的相遇與難以言說的情感。",
+      "ticketUrl": "https://www.opentix.life/event/2105556026520125441",
+      "sourceUrl": "https://www.opentix.life/event/2105556026520125441",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "PLAY HUB 玩・劇 創意基地",
+      "checkedAt": "2026-10-23",
+      "notes": "讀劇匯發展中作品，非完整舞台製作；演後另有約30分鐘文本交流。建議12歲以上，無中場休息。",
+      "sessions": [
+        {
+          "date": "2026-12-16",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-20",
+          "time": "14:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2100041290423484417-49e8f7ee",
+      "productionId": "opentix-2100041290423484417",
+      "title": "烏秋—黑羽的斷翼者",
+      "subtitle": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+      "category": "動漫式武打音樂劇",
+      "summary": "鳳凰一族的首席殺手烏秋受傷後啟動接班選拔，三名背景不同的少女在訓練與族群衝突中面對夢想、友誼與生存。",
+      "ticketUrl": "https://www.opentix.life/event/2100041290423484417",
+      "sourceUrl": "https://www.opentix.life/event/2100041290423484417",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "D.D.Box 劇場（Date Day Box）",
+      "checkedAt": "2026-10-23",
+      "notes": "建議12歲以上；6–12歲由家長陪同。本場同步錄影；窗口僅收錄1/22，其後場次請查官方頁。",
+      "sessions": [
+        {
+          "date": "2027-01-22",
+          "time": "19:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2083124898860347393-76e4ce59",
+      "productionId": "opentix-2083124898860347393",
+      "title": "Do Re Mi 喜咧兜？",
+      "subtitle": "米特動物樂園《Do Re Mi 喜咧兜？》",
+      "category": "親子音樂劇場（互動音樂會）",
+      "summary": "以動物角色、戲劇故事與觀眾互動，帶孩子認識音樂；屬互動音樂會形式，不等同完整歌唱敘事音樂劇。",
+      "ticketUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceName": "OPENTIX",
+      "city": "高雄市",
+      "region": "south",
+      "venue": "衛武營國家藝術文化中心戲劇院",
+      "checkedAt": "2026-10-23",
+      "notes": "約60分鐘無中場；多數段落台語。建議2歲以上，適合2–10歲親子家庭；所有年齡均須一人一票。",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-12-05",
+          "time": "15:00"
+        },
+        {
+          "date": "2026-12-06",
+          "time": "10:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2083124898860347393-07449495",
+      "productionId": "opentix-2083124898860347393",
+      "title": "Do Re Mi 喜咧兜？",
+      "subtitle": "米特動物樂園《Do Re Mi 喜咧兜？》",
+      "category": "親子音樂劇場（互動音樂會）",
+      "summary": "以動物角色、戲劇故事與觀眾互動，帶孩子認識音樂；屬互動音樂會形式，不等同完整歌唱敘事音樂劇。",
+      "ticketUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceName": "OPENTIX",
+      "city": "臺中市",
+      "region": "central",
+      "venue": "臺中國家歌劇院中劇院",
+      "checkedAt": "2026-10-23",
+      "notes": "約60分鐘無中場；多數段落台語。建議2歲以上，適合2–10歲親子家庭；所有年齡均須一人一票。",
+      "sessions": [
+        {
+          "date": "2026-12-17",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "15:00"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:30"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2083124898860347393-1903a1f1",
+      "productionId": "opentix-2083124898860347393",
+      "title": "Do Re Mi 喜咧兜？",
+      "subtitle": "米特動物樂園《Do Re Mi 喜咧兜？》",
+      "category": "親子音樂劇場（互動音樂會）",
+      "summary": "以動物角色、戲劇故事與觀眾互動，帶孩子認識音樂；屬互動音樂會形式，不等同完整歌唱敘事音樂劇。",
+      "ticketUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceName": "OPENTIX",
+      "city": "宜蘭縣",
+      "region": "north",
+      "venue": "宜蘭演藝廳",
+      "checkedAt": "2026-10-23",
+      "notes": "約60分鐘無中場；多數段落台語。建議2歲以上，適合2–10歲親子家庭；所有年齡均須一人一票。",
+      "sessions": [
+        {
+          "date": "2026-12-27",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-12-27",
+          "time": "15:00"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "opentix-2083124898860347393-2a743c82",
+      "productionId": "opentix-2083124898860347393",
+      "title": "Do Re Mi 喜咧兜？",
+      "subtitle": "米特動物樂園《Do Re Mi 喜咧兜？》",
+      "category": "親子音樂劇場（互動音樂會）",
+      "summary": "以動物角色、戲劇故事與觀眾互動，帶孩子認識音樂；屬互動音樂會形式，不等同完整歌唱敘事音樂劇。",
+      "ticketUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceUrl": "https://www.opentix.life/event/2083124898860347393",
+      "sourceName": "OPENTIX",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "臺北表演藝術中心 球劇場",
+      "checkedAt": "2026-10-23",
+      "notes": "約60分鐘無中場；多數段落台語。建議2歲以上，適合2–10歲親子家庭；所有年齡均須一人一票。",
+      "sessions": [
+        {
+          "date": "2027-01-09",
+          "time": "10:30"
+        },
+        {
+          "date": "2027-01-09",
+          "time": "15:00"
+        },
+        {
+          "date": "2027-01-10",
+          "time": "10:30"
+        },
+        {
+          "date": "2027-01-10",
+          "time": "15:00"
+        }
+      ],
+      "verificationMethod": "官方節目文字與Event結構化逐場資料交叉核對",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "murray-2026-taichung",
+      "productionId": "murray-2026",
+      "title": "海象莫雷的漂流日誌",
+      "subtitle": "極致藝術《海象莫雷的漂流日誌》親子音樂劇",
+      "category": "親子音樂劇",
+      "summary": "小海象莫雷因冰層斷裂離開家鄉，展開跨越多年的漂流旅程。極致藝術以音樂劇與打擊樂呈現他與沿途夥伴的相遇、離別與尋家故事。",
+      "ticketUrl": "https://www.opentix.life/event/2087017782302437377",
+      "sourceUrl": "https://www.opentix.life/event/2087017782302437377",
+      "sourceName": "OPENTIX",
+      "city": "臺中市",
+      "region": "central",
+      "venue": "臺中市中山堂",
+      "checkedAt": "2026-10-23",
+      "notes": "",
+      "sessions": [
+        {
+          "date": "2027-01-16",
+          "time": "15:00"
+        },
+        {
+          "date": "2027-01-16",
+          "time": "19:30"
+        },
+        {
+          "date": "2027-01-17",
+          "time": "11:00"
+        },
+        {
+          "date": "2027-01-17",
+          "time": "15:00"
+        }
+      ],
+      "verificationMethod": "官方Event逐場資料",
+      "unknowns": [
+        "即時餘票未確認"
+      ]
+    },
+    {
+      "id": "breeze-years-2026-kaohsiung",
+      "productionId": "breeze-years-2026",
+      "title": "微風往事．歲月如歌",
+      "category": "跨界民歌音樂劇",
+      "city": "高雄市",
+      "region": "south",
+      "venue": "衛武營國家藝術文化中心 戲劇院",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "time": "19:30"
+        }
+      ],
+      "summary": "以久別重逢的同學會串起青春往事，結合交響樂與經典民歌，描寫友情、愛情、師生情與人生選擇。",
+      "sourceUrl": "https://www.npac-weiwuying.org/programs/6acef4ed8697570008960193",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1GUS4PQ",
+      "sourceName": "衛武營與年代售票",
+      "checkedAt": "2026-10-23",
+      "verificationMethod": "官方場館及售票頁交叉核對",
+      "notes": "約105分鐘含15分鐘中場；建議4歲以上，7歲以下須家長陪同。勿與同名民歌演唱會混淆。",
+      "unknowns": [
+        "首次開賣時刻",
+        "早鳥方案",
+        "即時餘票"
       ]
     }
   ]
