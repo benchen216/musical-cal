@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#492c35">
+  <title>幕間・台灣音樂劇日曆</title>
+  <meta name="description" content="從日期與城市，找到下一場音樂劇。台灣音樂劇三個月官方場次樣本，提供行事曆、地區篩選與官方購票資訊。">
+  <link rel="stylesheet" href="styles.css">
+  <script src="events.js" defer></script><script src="model.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#explore">跳到演出日曆</a>
+<header class="site-header"><a class="brand" href="#" aria-label="幕間首頁"><span class="brand-mark" aria-hidden="true">幕</span><span>幕間<span class="brand-en">STAGE DAYS</span></span></a><nav aria-label="主選單"><a href="#explore">演出日曆</a><a href="#about">關於樣本 <span aria-hidden="true">↗</span></a></nav><span class="sample-pill"><i></i> 日曆樣本</span></header>
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy"><div class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> TAIWAN MUSICAL THEATRE</div><h1 id="hero-title">留一個晚上，<br>給<span class="gold">舞台。</span></h1><p>從日常走進故事。<br>用日期和城市，找到你的下一場音樂劇。</p><a class="hero-link" href="#explore">翻開演出日曆 <span aria-hidden="true">↓</span></a></div>
+    <div class="stage-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><div class="stage-door"><div class="door-light"></div><span class="door-line"></span><div class="stairs"></div></div><div class="art-caption">EVERY DAY<br>COULD BE A SHOW DAY.</div><span class="art-number">01 / 第一幕</span></div>
+    <div class="hero-footer"><span>2026.10.22 <b>—</b> 2027.01.21</span><span>三個月場次選集 <i aria-hidden="true">·</i> 台灣時間 UTC+8</span></div>
+  </section>
+  <section class="explore" id="explore" aria-labelledby="explore-title">
+    <div class="section-top"><div><div class="eyebrow muted">FIND YOUR NEXT SHOW</div><h2 id="explore-title">哪一天，想看戲？</h2></div><p id="coverage-count" class="coverage-count"></p></div>
+    <div class="filters"><div id="regions" class="regions" role="group" aria-label="篩選地區"></div><div class="filter-controls"><label class="select-wrap"><span class="sr-only">篩選城市</span><span aria-hidden="true">⌖</span><select id="city-filter" aria-label="篩選城市"><option value="all">所有城市</option></select></label><label class="search-wrap"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"></circle><path d="m13 13 4 4"></path></svg><span class="sr-only">搜尋劇名或場館</span><input type="search" id="search" placeholder="搜尋劇名或場館"></label></div></div>
+    <div class="calendar-layout">
+      <section class="calendar-panel" aria-label="演出月曆"><div class="calendar-toolbar"><div class="month-heading"><h3 id="month-label"></h3><span id="month-en"></span></div><div class="month-actions"><button id="today" class="text-button">今天</button><button id="prev-month" class="icon-button" aria-label="上一個月">‹</button><button id="next-month" class="icon-button" aria-label="下一個月">›</button></div></div><p id="month-note" class="month-note"></p><div class="weekdays" aria-hidden="true"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div><div id="calendar" class="calendar-grid" aria-label="選擇日期"></div><div class="calendar-legend"><span><i class="dot north"></i>北部</span><span><i class="dot central"></i>中部</span><span><i class="dot south"></i>南部</span><span class="legend-note">圓點表示已收錄場次</span></div><div class="jump-row"><span>想找特定一天？</span><label for="jump-date" class="sr-only">跳至日期</label><input id="jump-date" type="date" aria-label="跳至日期"></div></section>
+      <aside class="day-panel" aria-labelledby="selected-label"><div class="day-top"><div class="eyebrow muted" id="selected-eyebrow">THE DAY'S PROGRAMME</div><div class="day-title"><h3 id="selected-label"></h3><span id="selected-weekday"></span></div><div id="day-count"></div></div><div id="day-events" aria-live="polite"></div></aside>
+    </div>
+    <section class="upcoming" aria-labelledby="upcoming-title"><div class="subheading"><div><div class="eyebrow muted">ON THE HORIZON</div><h3 id="upcoming-title">接下來，舞台見。</h3></div><span id="upcoming-summary"></span></div><div id="upcoming-list" class="upcoming-list"></div></section>
+  </section>
+  <section class="about" id="about" aria-labelledby="about-title"><div class="about-intro"><div class="eyebrow muted">A SMALL, HONEST BEGINNING</div><h2 id="about-title">先從一份<br>音樂劇日曆開始。</h2><p>這是未來三個月的資料樣本，不是全台完整節目表。只放入能確認日期與時間的官方場次，不用猜測填滿日曆。</p></div><div class="about-details"><div class="info-row"><span>01</span><div><h3>場次有依據，票況看官方</h3><p>資料核對日為 2026 年 10 月 22 日。場次可能異動，購票前請以官方公告為準；本頁不顯示即時座位或售票狀態。</p></div></div><div class="info-row"><span>02</span><div><h3>沒有收錄，不代表沒有演出</h3><p>目前僅收錄部分音樂劇及親子音樂劇。北、中、南皆可篩選；資料較少的地區與月份會保留空白，之後可擴充其他劇場類型。</p></div></div><div class="info-row"><span>03</span><div><h3>保留出處，也尊重創作</h3><p>每筆演出附官方節目或售票連結。本站視覺以原創 CSS 繪製，未使用劇照或海報。此樣本為靜態整理，尚未啟用自動更新。</p></div></div><details class="sources"><summary>查看資料來源與收錄場次 <span aria-hidden="true">＋</span></summary><div id="source-list"></div></details></div></section>
+</main>
+<footer><a class="footer-brand" href="#">幕間 <span>STAGE DAYS</span></a><p>願每一場故事，都剛好遇見你。</p><span>TAIWAN · UTC+8</span></footer>
+<noscript><p class="noscript">請開啟 JavaScript 使用互動日曆。官方來源與資料收錄範圍見本頁說明。</p></noscript>
+</body>
+</html>
