@@ -1244,6 +1244,48 @@ window.STAGE_DATA = {
           "time": "16:30"
         }
       ]
+    },
+    {
+      "id": "how-to-write-a-musical-2026-taipei",
+      "productionId": "how-to-write-a-musical-2026",
+      "title": "大家都怎麼做音樂劇？",
+      "subtitle": "唱歌集《大家都怎麼做音樂劇？》／How to Write a Musical?",
+      "category": "後台音樂劇",
+      "keywords": [
+        "大家都怎麼做音樂劇",
+        "大家都怎么做音乐剧",
+        "How to Write a Musical",
+        "唱歌集",
+        "後台音樂劇"
+      ],
+      "summary": "編劇與作曲家現身舞台，以歌唱與戲劇呈現原創音樂劇從發想到修改的過程，讓觀眾看見創作者如何取捨故事、角色與音樂。",
+      "ticketUrl": "https://www.opentix.life/event/2052621362491457537",
+      "sourceUrl": "https://www.opentix.life/event/2052621362491457537",
+      "sourceName": "OPENTIX／唱歌集音樂劇場",
+      "city": "臺北市",
+      "region": "north",
+      "venue": "臺灣大學藝文中心 遊心劇場",
+      "checkedAt": "2026-10-22",
+      "verificationMethod": "Official OPENTIX Event JSON-LD for each session; programme and discount text cross-checked.",
+      "notes": "建議6歲以上；約90分鐘，無中場休息，中文演出、無字幕。這是演出作品，不是創作課程或讀劇音樂會。",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-07",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-08",
+          "time": "14:30"
+        }
+      ]
     }
   ]
 };

@@ -748,5 +748,30 @@ window.STAGE_TICKETS = {
       }
     ],
     "notes": "本輪未確認早鳥方案；其他會員、學生與銀行折扣請依官方條件核對。"
+  },
+  "how-to-write-a-musical-2026-taipei": {
+    "saleStatusText": "已公告早鳥開賣日；即時餘票未確認",
+    "onSaleAt": "2026-05-20T12:00:00+08:00",
+    "onSaleText": "早鳥啟售：2026/05/20 12:00；未另確認一般票全面啟售時刻。",
+    "earlyBird": [
+      {
+        "label": "早鳥優惠",
+        "window": "2026/05/20 12:00–06/03 23:59",
+        "discount": "85折",
+        "conditions": "最低票價不適用；其他優惠資格與可用席位以官方售票頁為準。",
+        "status": "expired",
+        "startsAt": "2026-05-20T12:00:00+08:00",
+        "endsAt": "2026-06-03T23:59:00+08:00"
+      }
+    ],
+    "bookingUrl": "https://www.opentix.life/event/2052621362491457537",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "label": "OPENTIX 官方節目、折扣與演出須知",
+        "url": "https://www.opentix.life/event/2052621362491457537"
+      }
+    ],
+    "notes": "公告票價為NT$1,000–1,800。早鳥已結束，不代表目前沒有其他優惠。開賣時間採公開折扣文字；頁面結構化資料的5/19起始值不當作一般開賣日。文化幣及其他資格優惠請查看官方公告。"
   }
 };
